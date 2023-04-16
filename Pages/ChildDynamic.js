@@ -6,6 +6,7 @@ function ChildDynamic() {
    const {dyn} = useContext(ContextApi);
    console.log(dyn);
 //    const [add , setAdd] = useState("child") 
+//   comment for github updates 
   return (
     <div className = {`child_spec ${dyn}`}>
       {/* <h2>Child Dynamic</h2> */}
